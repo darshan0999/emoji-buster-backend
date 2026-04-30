@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 
-// Import routes --
+// Import routes -- 1
 const authRoutes = require('./src/routes/auth');
 const gameRoutes = require('./src/routes/game');
 const { initDatabase } = require('./src/database/init');
